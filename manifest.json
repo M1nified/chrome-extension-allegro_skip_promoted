@@ -1,6 +1,6 @@
 {
     "name": "Znajdź listę ofert w Allegro",
-    "version": "1.0",
+    "version": "1.1",
     "description": "Znajduje i otwiera stronę z listą ofert niepromowanych.",
     "manifest_version": 2,
     "author": "M1nified",

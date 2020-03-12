@@ -155,7 +155,7 @@ let lookForOffersBisectional = (url) => {
 }
 
 let findHeader = (documentXML) => {
-    let header = document.evaluate("//h2[contains(., 'Lista ofert')]", documentXML, null, XPathResult.ANY_TYPE, null).iterateNext()
+    let header = document.evaluate("//h2[text()='Oferty']", documentXML, null, XPathResult.ANY_TYPE, null).iterateNext()
     return header
 }
 
